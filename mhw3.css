@@ -1,0 +1,388 @@
+@font-face{
+    font-family: "My font";
+    src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+  }
+  
+  @font-face{
+    font-family: "Footer-font";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap')
+  }
+  
+  @font-face{
+    font-family: "Header-font";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+  }
+  
+  html{
+    font-size: 24px;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  nav a{
+      border-radius: 30px;
+      color: white;
+      background-color: dodgerblue;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 5px 15px;
+     
+      
+  }
+  
+  nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      height: 16.66%;
+      background-color: lightgray;
+  }
+  
+  a.button:hover{
+    background-color: black;
+    color: white;
+    
+  }
+  
+  a{
+    cursor: pointer;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    font-family: "Header-font", serif;
+    color: green;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    
+  }
+  
+  header h1 em{
+    font-size: 1.5rem;
+    font-family: curier, serif;
+    color: black;
+    border-bottom: 2px solid darkgreen;
+  }
+
+  header{
+    
+    background-image:url(https://www.viaggiamo.it/wp-content/uploads/2021/03/dove-si-puo-viaggiare-dallitalia-1.jpg);
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  #overlay{
+    background-color:rgba(0, 0, 0, 0.3);
+    height: 83.33%;
+    width: 100%;
+    position: absolute;
+    top: 16.66%;
+    left: 0;
+    z-index: 1;
+  }
+  
+  #profile{
+    background-image: url(https://pianetasocial.it/wp-content/uploads/2013/10/faccia.jpg);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -50px;
+    z-index:2;
+    border: 3px solid lightblue;
+   
+  }
+  
+  #profile-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0.5;
+  }
+  
+  #em-border{
+    font-family: italic;
+    border-bottom: 1px solid gray;
+  }
+  
+  
+  section{
+    
+    width: 66.67vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    
+  }
+  
+.item1 {
+  margin-right: 40px;
+  font-size: 1.5rem;
+  color: black;
+} 
+
+  .titolo{
+    margin: 0;
+    line-height: 1;
+  }
+  
+  .titolo strong{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    font-family: Arial, serif;
+    
+  }
+  
+  .titolo em{
+    font-size: 1rem;
+    color: aqua;
+    font-family: curier, serif;
+  }
+  
+  .paragrafo{
+    
+    margin-top: 20px;
+    font-family: "My font", serif;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  
+
+  form {
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: 50px;
+   
+  }
+  
+  #album{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+  }
+
+  #music{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  #music button{
+    margin-left: 20px;
+
+  }
+
+  #playlist-view {
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  #playlist-view .container{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    margin: 30px;
+    
+  }
+  #playlist-view .container .img_album {
+    width: 30%;
+    height: 50%;
+    margin-left: 50px;
+  }
+  
+  #Roma{
+    background-image: url("https://www.focus.it/site_stored/imgs/0006/012/colosseo_roma.1020x680.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  #Parigi{
+    background-image: url("https://fontidienergiarinnovabile.it/wp-content/uploads/2021/01/parigi-970419-588822.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  #Londra{
+    background-image: url("https://www.viaggimust.it/wp-content/uploads/2020/03/visitare-londra-in-3-giorni.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  #Taormina{
+    background-image: url("https://www.italia.it/storage/small/202103/20210309110434_taormina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  #Stoccolma{
+    background-image: url("https://viaggianza.com/wp-content/uploads/2017/07/stoccolma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  footer {
+    background-color: darkslategray;
+    padding: 75px;
+    text-align: center;
+    
+  }
+  
+  footer address {
+    color: white;
+    font-family: "Footer-font", serif;
+    letter-spacing: 2px;
+    
+  }
+  
+  article{
+    font-family: Curier, serif;
+  }
+  
+
+  @media (max-width: 800px){
+    header h1{
+        width: 70%;
+        font-size: 2.2rem;
+      }
+    header h1 em{
+        font-size: 1.1rem;
+    }
+
+    header{
+        height: 400px;
+    }
+
+}
+
+  @media (max-width: 500px) {
+    html {
+      font-size: 18px;
+      line-height: 1.2;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    header {
+      height: 300px;
+      line-height: 1.2;
+    }
+   
+    header h1{
+      width: 50%;
+      
+    }
+
+    nav a {
+        font-size: 0.8rem;
+      }
+   
+  }
+
+  
+  
+  
+  
+  @media(max-width: 500px){
+    #Roma{
+      height: 200px;
+    }
+    #Taormina{
+      height: 200px;
+    }
+    #Londra{
+      height: 200px;
+    }
+    #Stoccolma{
+      height: 200px;
+    }
+    #Parigi{
+      height: 200px;
+    }
+    
+  }
+  
+  
+  @media(max-width: 350px){
+    nav a {
+      font-size: 0.6rem;
+      padding: 2px 5px;
+    }
+
+    header h1{
+        width: 70%;
+        font-size: 1.8rem;
+      }
+    header h1 em{
+        font-size: 0.9rem;
+    }
+
+   
+  }
+
+  
+  @media(max-width: 140px){
+    nav a {
+      font-size: 0.3rem;
+      padding: 1px 2px;
+    }
+
+    header h1{
+        width: 70%;
+        font-size: 0.8rem;
+      }
+    header h1 em{
+        font-size: 0.4rem;
+    }
+
+   
+  }
